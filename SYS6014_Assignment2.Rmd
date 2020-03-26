@@ -1,0 +1,61 @@
+---
+title: "How Can Participants Make More Efficient Decisions in Peer-to-Peer Sharing Economy?"
+subtitle: "SYS6014 - Decision Tool Project: Refined Concept Note, Including Initial Formal Model"
+author: "Ian Liu"
+date: "2/5/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Project Introduction & Description
+
+As the concept of sharing economy has been globally proved to be efficient, a relatively new economic model has been invented and introduced, which is to use time as a tradable currency, to allow one participant with specific skills to trade hours of work with another participant with different skills. During the entire transaction, although physical money is replaced by working hours, both parties of the transaction still has achieved their objection of exchanging services or needs. This new type of economic model is called time-banking.
+
+For example, Jack will be out of town over the weekend for a conference and needs someone reliable and trustable to take care of his child. Maria, Jack’s neighbor, is a professional registered nurse at the local children’s hospital and has free time over the weekend. However, due to the nature of work, Maria must be on night shifts 4 times a week, so she hardly finds a proper time window to mow her lawn. In fact, Jack is getting a 2-day break from work when he returns back from the conference, and he can mow Maria's lawn as return, in exchange of Maria’s time for taking care of his child over the weekend. 
+
+There actually have been a few successful platforms out there that can help the participants of time banking to set up the matches. However, things just become more complicated as the number of participants is getting larger, which means that each participant must make a decision when multiple matches have become available for them to confront. Let’s get back to Jack and Maria’s case. What if there are multiple help requests that Maria could accept for the weekend? What if there are multiple babysitters available in the neighbor that Jack gets to choose? Here comes a decision-making problem, for the system itself.
+
+## The Decision Problem
+
+In this project, the decision-maker is the system itself. It's run by an algorithm that determines which two candidates can be the best match, so that both of the users, candidates in this case, do not have to make a choice from long lists of potential candidates.
+
+The set of options is hard to define due to the complexity and diversity of each participant's profile. And the system would calculate a weighted expectation value for each participant based on the available information provided in their profile. The stakes of the decision vary depending on the nature of each decision. However, we wish to find the best match, or the final decision with the highest expectation value, for participants to choose. Poorer decisions will definitely lead to issues such as inequality, controversy, or disputation about timing hours. Since the physical money does not get involved in the transaction, it's pretty hard for participants to intuitively evaluate the work load with working hours. Having said that, it is definitely not going to work out if Maria babysits Jack's child for the entire weekend, but Jack only mows Maria's lawn for 5 minutes.
+
+## Description of the Model in Formal Mathematical Notation
+
+* Item 1: The decision maker's __action set__ $A$: Multiple ideal matches have been found for the system to pick.
+* Item 2: The __state space__ or _sample space_ $X$:The entire user profiles' pool, from which the matches are being drawn.
+* Item 3: Users' profiles are where data are from. Each user is labelled with an unique ID, and the potential choices are being made by screening their locations, request categories, job types etc. Potential candidates here take the form of a _statistical model_ describing the statistical properties if random variables $X_{1}$,$X_{2}$,$X_{3}$,.....$X_{N} \in X$.
+ 
+* Item 4: The __parameter space__ $\Theta$: the set of possible values for the unobserved parameters. To be honest, I'm still looking for a proper way to label the data that is collected from profiles, which means that I'm not really sure how I should deal with unobserved parameters.
+
+* Item 5: Since the system is not a real human being, we cannot evaluate the bias that a system could make as the bias a human would make, which generates totally different results in terms of _prior beliefs_. In order to solve that issue, new concept needs to be introduced, such as _Implicit Profile_ etc.
+
+* Item 5: When Uber is assigning a match, the driver does not always get to be assigned to the user that has the minimum distance from them, in terms of their location information. In fact, Uber calculates, estimates, and ranks all the surrounding drivers, and decides the one that has the shortest Estimated Time Arrival(ETA) for making a successful match. For our project, we may be able to take Uber's matching philosophy as a reference, to see how the system can get better information to sharpen it belief's about uncertain parameter values.
+
+* Item 6: Payoffs at the early stage are hard to evaluate. However, we could refine the algorithm based on users' evaluation scores after each match is complete.
+
+* Item 7: The decision maker's utility function, and the rule that the system will use to choose a preferred action $a*$ from the menu $A$ of possible actions are still under search. I'll update this item as soon as I get a clear indication.
+
+## User Data Profile Setup and Data Collection
+
+The process of data collection will be based on analyzing the information that users put in their profiles. In general, information needed for initiating a profile match by using Natural Language Processing techniques is as following:
+
+Note: More questions regarding the profile setup will be added later.
+
+![A Help Requester's Profile](/Users/YingzhengLiu/Dropbox/R_Workplace/SYS6014/images/help.png)
+
+![A Job Requester's Profile](/Users/YingzhengLiu/Dropbox/R_Workplace/SYS6014/images/job.png)
+
+A group of students at UVa will be asked to fill out a survey that contains the questions in the diagram. This is evaluated as the data source for this project. As the users' pool is getting more sufficient, the matching processing is expected to be more and more efficient.
+
+
+
+
+
+
+
+

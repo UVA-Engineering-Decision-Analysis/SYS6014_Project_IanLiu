@@ -1,0 +1,7 @@
+﻿Name,Age,Gender,Race,City,State,﻿Educational_Background,﻿Jobs_Good_At,﻿Jobs_N ot_Good_At,﻿General_Available_TimeSlots,﻿Preferences_on_Provider
+Maria,45,Female,Asian,Charlottesville,VA,Master,"cooking,babysitting,gardening",mechannic_repairing,Monday_Night,"40-50,Female,repairing, Sunday"
+Jack,33,Male,Black,Charlottesville,VA,Bachelor,NA,"cooking, babysitting",Saturday_Morning,NA
+Mike,55,Male,White,Richmond,VA,High school,mechannic_repairing,NA,Sunday_All_Day ,NA
+Jason,19,Male,White,Fairfax,VA,Bachelor,NA,NA,NA,NA
+Emily,21,Female,Asian,Charlotte,NC,Bachelor,NA,NA,NA,NA
+Anna,30,Female,Black,Atlanta,GA,Bachelor,NA,NA,NA,NA
