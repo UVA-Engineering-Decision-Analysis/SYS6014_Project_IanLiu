@@ -1,0 +1,11 @@
+Name,Age,Gender,City,State,Edu_Bkgd,Job_Catgr,Pref_Age,Pref_Gender,Pref_Bkgd,Time,Location,Date,Req_Job_Catgr
+Maria,45,Female,Charlottesville,VA,Master,"“'cooking','1'”, ""'caring', '9'"", ""'housing','2'"", ""'repairing','2'"", ""cleaning','2'"", ""'gardening','2'""",41-50,Female,Bachelor,15:30,"""'Charlottesville', 'VA'""",5/1/2020,gardening
+Jack,33,Male,Charlottesville,VA,Bachelor,"“'cooking','9'”, ""'caring', '1'"", ""'housing','8'"", ""'repairing','8'"", ""cleaning','8'"", ""'gardening','8'""",30-40,Male,N/A,12:30,"""'Charlottesville', 'VA'""",5/3/2020,caring
+Mike,55,Male,Richmond,VA,High school,"“'cooking','3'”, ""'caring', '6'"", ""'housing','9'"", ""'repairing','9'"", ""cleaning','9'"", ""'gardening','8'""",61-70,Male,N/A,8:00,"""'Richmond', 'VA'""",5/6/2020,cooking
+Jason,19,Male,Fairfax,VA,Bachelor,"“'cooking','7'”, ""'caring', '5'"", ""'housing','1'"", ""'repairing','1'"", ""cleaning','2'"", ""'gardening','2'""",21-30,Female,Master,9:30,"""'Fairfax', 'VA'""",6/1/2020,housing
+Emily,21,Female,Charlotte,NC,Bachelor,"“'cooking','3'”, ""'caring', '6'"", ""'housing','7'"", ""'repairing','5'"", ""cleaning','5'"", ""'gardening','2'""",21-30,Female,N/A,10:30,"""'Charlotte', 'NC'""",5/20/2020,gardening
+Anna,30,Female,Atlanta,GA,Bachelor,"“'cooking','5'”, ""'caring', '5'"", ""'housing','2'"", ""'repairing','9'"", ""cleaning','7'"", ""'gardening','9'""",31-40,Female,N/A,15:30,"""'Atlanta', 'GA'""",5/21/2020,housing
+Sean,23,Male,D.C.,D.C.,High school,"“'cooking','9'”, ""'caring', '3'"", ""'housing','3'"", ""'repairing','2'"", ""cleaning','7'"", ""'gardening','4'""",21-30,Male,JD,12:30,"""'D.C.'""",5/18/2020,repairing
+Ian,70,Male,Alexandria,VA,Other,"“'cooking','1'”, ""'caring', '5'"", ""'housing','3'"", ""'repairing','3'"", ""cleaning','7'"", ""'gardening','8'""",61-70,Male,Other,8:00,"""'Alexandria', 'VA'""",5/16/2020,cooking
+Jazmin,32,Female,Charlotte,NC,JD,"“'cooking','5'”, ""'caring', '4'"", ""'housing','2'"", ""'repairing','7'"", ""cleaning','3'"", ""'gardening','3'""",31-40,Male,Other,9:30,"""'Charlotte', 'NC'""",5/13/2020,cleaning
+Katy,45,Female,Atlanta,GA,JD,"“'cooking','9'”, ""'caring', '9'"", ""'housing','6'"", ""'repairing','3'"", ""cleaning','5'"", ""'gardening','1'""",41-50,Male,Bachelor,10:30,"""'Atlanta', 'GA'""",5/30/2020,gardening
